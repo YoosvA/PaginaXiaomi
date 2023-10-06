@@ -1,0 +1,29 @@
+#bordeCards{
+    border: none;
+}
+
+#bootonOrange{
+    border-color: #ff8000;
+    background-color: #fedebe;
+    color: #ff8000;
+}
+
+#bootonGreen{
+    border-color: rgb(33, 181, 33);
+    background-color: rgb(181, 226, 181);
+    color: rgb(33, 181, 33);
+}
+
+/* Estilo inicial sin sombra */
+.card {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Estilo con sombra cuando se pasa el mouse */
+.card.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*shadow en letras*/
+.shadowLetras{
+   color:  white; text-shadow: black 0.1em 0.1em 0.2em
+}
